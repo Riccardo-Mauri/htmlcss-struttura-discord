@@ -2,8 +2,131 @@
 RESET
 */
 
-*{
-    box-sizing:border-box;
-    margin: 0 auto;
+* {
+    box-sizing: border-box;
+    margin: 0;
     padding: 0;
+    
+}
+
+.container {
+    background-color: red;
+    min-height: 50px; 
+    max-width: 1500px;
+    margin: 0 auto;
+    
+    
+}
+
+
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.nav-header {
+    background-color: yellow;
+    border: 2px dashed black;
+    margin: 0 auto;
+    margin-top:15px;
+    margin-bottom: 15px;
+    padding:5px 10px 5px;
+    width: calc(100%/3);
+    text-align: center;
+}
+.logo{
+    text-align: left;
+}
+.login{
+    text-align:right;
+
+}
+.container-main{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+}
+.box{
+    background-color: purple;
+    width: 1000px;
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: dashed 2px black;
+    border-radius: 5px;
+}
+.container-main2{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+
+}
+.boxes{
+
+    display: flex;
+    height: 450px;
+    background-color: aqua;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.section1{
+    width: 70%;
+    border: 2px dashed black;
+    background-color: skyblue;
+}
+.section2{
+    width: 30%;
+    border: 2px dashed black;
+    background-color: lightslategray;
+}
+.boxes3{
+    display: flex;
+    height: 800px;
+    background-color: green;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 2px dashed black;
+}
+.boxes4{
+    display: flex;
+    height: 500px;
+    border: 1px dashed white;
+    background-color: lightgreen;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.section3{
+    width: 30%;
+    border: 2px dashed black;
+}
+.section4{
+    display: flex;
+    width: 70%;
+    border: 2px dashed black;
+}
+.columns{
+    width: 25%;
+    border: 2px dashed white;
+}
+.footer-container{
+    background-color: bisque;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-logo{
+    background-color: pink;
+    border: 2px dashed black;
+}
+.footer-bottone{
+    background-color: pink;
+    border: 2px dashed black;
 }
