@@ -10,7 +10,7 @@ RESET
 }
 
 .container {
-    background-color: red;
+    background-color: #FFFFFF;
     min-height: 50px; 
     max-width: 1500px;
     margin: 0 auto;
@@ -18,7 +18,9 @@ RESET
     
 }
 
-
+.headercolor{
+    background-color: #ADD8E6;
+}
 
 .flex-container {
     display: flex;
@@ -31,7 +33,7 @@ RESET
 }
 
 .nav-header {
-    background-color: yellow;
+    background-color: #D8A420;
     border: 2px dashed black;
     margin: 0 auto;
     margin-top:15px;
@@ -50,10 +52,10 @@ RESET
 .container-main{
     display: flex;
     justify-content: center;
-    background-color: blue;
+    background-color: #00008B;
 }
 .box{
-    background-color: purple;
+    background-color: #EE82EE;
     width: 1000px;
     height: 300px;
     margin-top: 30px;
@@ -61,30 +63,36 @@ RESET
     border: dashed 2px black;
     border-radius: 5px;
 }
-.container-main2{
-    background-color: red;
+--.container-main2{
+    --background-color: red;
     display: flex;
     justify-content: center;
 
 }
 .boxes{
-
+    --background-color:#FFFFFF;
     display: flex;
     height: 450px;
-    background-color: aqua;
+    
     margin-top: 30px;
     margin-bottom: 30px;
+}
+.alt-bcg{
+    background-color:#D3D3D3;
+}
+.alt-bcg2{
+    background-color:#23272A;
 }
 
 .section1{
     width: 70%;
     border: 2px dashed black;
-    background-color: skyblue;
+    background-color: #1E90FF;
 }
 .section2{
     width: 30%;
     border: 2px dashed black;
-    background-color: lightslategray;
+    background-color: #FFC0CB;
 }
 .boxes3{
     display: flex;
